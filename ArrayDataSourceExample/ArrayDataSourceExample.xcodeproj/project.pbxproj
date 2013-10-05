@@ -14,13 +14,15 @@
 		D9CEC91C1800CA1000510512 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CEC91B1800CA1000510512 /* main.m */; };
 		D9CEC9201800CA1000510512 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CEC91F1800CA1000510512 /* AppDelegate.m */; };
 		D9CEC9231800CA1000510512 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9CEC9211800CA1000510512 /* Main.storyboard */; };
-		D9CEC9261800CA1000510512 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CEC9251800CA1000510512 /* ViewController.m */; };
+		D9CEC9261800CA1000510512 /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CEC9251800CA1000510512 /* ExampleViewController.m */; };
 		D9CEC9281800CA1000510512 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9CEC9271800CA1000510512 /* Images.xcassets */; };
 		D9CEC92F1800CA1000510512 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CEC92E1800CA1000510512 /* XCTest.framework */; };
 		D9CEC9301800CA1000510512 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CEC90F1800CA1000510512 /* Foundation.framework */; };
 		D9CEC9311800CA1000510512 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CEC9131800CA1000510512 /* UIKit.framework */; };
 		D9CEC9391800CA1000510512 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9CEC9371800CA1000510512 /* InfoPlist.strings */; };
-		D9CEC93B1800CA1000510512 /* ArrayDataSourceExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CEC93A1800CA1000510512 /* ArrayDataSourceExampleTests.m */; };
+		D9CEC9481800CAFB00510512 /* ROArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CEC9461800CAFB00510512 /* ROArrayDataSource.m */; };
+		D9CEC94A1800CB4100510512 /* ROArrayDataSourceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CEC9471800CAFB00510512 /* ROArrayDataSourceTests.m */; };
+		EE21EFDE7062499987B95FCE /* libPods-ArrayDataSourceExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B32EE746214D2DAF5704DC /* libPods-ArrayDataSourceExampleTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33DAF9A0A6AE4C3983C0EB4F /* Pods-ArrayDataSourceExampleTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArrayDataSourceExampleTests.xcconfig"; path = "Pods/Pods-ArrayDataSourceExampleTests.xcconfig"; sourceTree = "<group>"; };
+		84B32EE746214D2DAF5704DC /* libPods-ArrayDataSourceExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArrayDataSourceExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9CEC90C1800CA1000510512 /* ArrayDataSourceExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArrayDataSourceExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9CEC90F1800CA1000510512 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D9CEC9111800CA1000510512 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +49,16 @@
 		D9CEC91E1800CA1000510512 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D9CEC91F1800CA1000510512 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D9CEC9221800CA1000510512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D9CEC9241800CA1000510512 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D9CEC9251800CA1000510512 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D9CEC9241800CA1000510512 /* ExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
+		D9CEC9251800CA1000510512 /* ExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
 		D9CEC9271800CA1000510512 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D9CEC92D1800CA1000510512 /* ArrayDataSourceExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArrayDataSourceExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9CEC92E1800CA1000510512 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D9CEC9361800CA1000510512 /* ArrayDataSourceExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ArrayDataSourceExampleTests-Info.plist"; sourceTree = "<group>"; };
 		D9CEC9381800CA1000510512 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D9CEC93A1800CA1000510512 /* ArrayDataSourceExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayDataSourceExampleTests.m; sourceTree = "<group>"; };
+		D9CEC9451800CAFB00510512 /* ROArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROArrayDataSource.h; sourceTree = "<group>"; };
+		D9CEC9461800CAFB00510512 /* ROArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROArrayDataSource.m; sourceTree = "<group>"; };
+		D9CEC9471800CAFB00510512 /* ROArrayDataSourceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ROArrayDataSourceTests.m; path = ../../ROArrayDataSource/ROArrayDataSourceTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,7 @@
 				D9CEC92F1800CA1000510512 /* XCTest.framework in Frameworks */,
 				D9CEC9311800CA1000510512 /* UIKit.framework in Frameworks */,
 				D9CEC9301800CA1000510512 /* Foundation.framework in Frameworks */,
+				EE21EFDE7062499987B95FCE /* libPods-ArrayDataSourceExampleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,9 +90,11 @@
 			isa = PBXGroup;
 			children = (
 				D9CEC9151800CA1000510512 /* ArrayDataSourceExample */,
+				D9CEC9441800CAFB00510512 /* ROArrayDataSource */,
 				D9CEC9341800CA1000510512 /* ArrayDataSourceExampleTests */,
 				D9CEC90E1800CA1000510512 /* Frameworks */,
 				D9CEC90D1800CA1000510512 /* Products */,
+				33DAF9A0A6AE4C3983C0EB4F /* Pods-ArrayDataSourceExampleTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +114,7 @@
 				D9CEC9111800CA1000510512 /* CoreGraphics.framework */,
 				D9CEC9131800CA1000510512 /* UIKit.framework */,
 				D9CEC92E1800CA1000510512 /* XCTest.framework */,
+				84B32EE746214D2DAF5704DC /* libPods-ArrayDataSourceExampleTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,8 +125,7 @@
 				D9CEC91E1800CA1000510512 /* AppDelegate.h */,
 				D9CEC91F1800CA1000510512 /* AppDelegate.m */,
 				D9CEC9211800CA1000510512 /* Main.storyboard */,
-				D9CEC9241800CA1000510512 /* ViewController.h */,
-				D9CEC9251800CA1000510512 /* ViewController.m */,
+				D9CEC94B1800DD4700510512 /* UIViewControllers */,
 				D9CEC9271800CA1000510512 /* Images.xcassets */,
 				D9CEC9161800CA1000510512 /* Supporting Files */,
 			);
@@ -137,7 +146,7 @@
 		D9CEC9341800CA1000510512 /* ArrayDataSourceExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				D9CEC93A1800CA1000510512 /* ArrayDataSourceExampleTests.m */,
+				D9CEC9471800CAFB00510512 /* ROArrayDataSourceTests.m */,
 				D9CEC9351800CA1000510512 /* Supporting Files */,
 			);
 			path = ArrayDataSourceExampleTests;
@@ -150,6 +159,25 @@
 				D9CEC9371800CA1000510512 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9CEC9441800CAFB00510512 /* ROArrayDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				D9CEC9451800CAFB00510512 /* ROArrayDataSource.h */,
+				D9CEC9461800CAFB00510512 /* ROArrayDataSource.m */,
+			);
+			name = ROArrayDataSource;
+			path = ../ROArrayDataSource;
+			sourceTree = "<group>";
+		};
+		D9CEC94B1800DD4700510512 /* UIViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D9CEC9241800CA1000510512 /* ExampleViewController.h */,
+				D9CEC9251800CA1000510512 /* ExampleViewController.m */,
+			);
+			name = UIViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9CEC9411800CA1000510512 /* Build configuration list for PBXNativeTarget "ArrayDataSourceExampleTests" */;
 			buildPhases = (
+				5ABD0EC0084745A983FD5DEF /* Check Pods Manifest.lock */,
 				D9CEC9291800CA1000510512 /* Sources */,
 				D9CEC92A1800CA1000510512 /* Frameworks */,
 				D9CEC92B1800CA1000510512 /* Resources */,
+				F87DE820BDC646F3BBD0150C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,13 +274,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5ABD0EC0084745A983FD5DEF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F87DE820BDC646F3BBD0150C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-ArrayDataSourceExampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D9CEC9081800CA1000510512 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9CEC9261800CA1000510512 /* ViewController.m in Sources */,
+				D9CEC9261800CA1000510512 /* ExampleViewController.m in Sources */,
 				D9CEC9201800CA1000510512 /* AppDelegate.m in Sources */,
+				D9CEC9481800CAFB00510512 /* ROArrayDataSource.m in Sources */,
 				D9CEC91C1800CA1000510512 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9CEC93B1800CA1000510512 /* ArrayDataSourceExampleTests.m in Sources */,
+				D9CEC94A1800CB4100510512 /* ROArrayDataSourceTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +465,7 @@
 		};
 		D9CEC9421800CA1000510512 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33DAF9A0A6AE4C3983C0EB4F /* Pods-ArrayDataSourceExampleTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ArrayDataSourceExample.app/ArrayDataSourceExample";
@@ -424,6 +489,7 @@
 		};
 		D9CEC9431800CA1000510512 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33DAF9A0A6AE4C3983C0EB4F /* Pods-ArrayDataSourceExampleTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ArrayDataSourceExample.app/ArrayDataSourceExample";
@@ -460,6 +526,7 @@
 				D9CEC9401800CA1000510512 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9CEC9411800CA1000510512 /* Build configuration list for PBXNativeTarget "ArrayDataSourceExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +535,7 @@
 				D9CEC9431800CA1000510512 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
