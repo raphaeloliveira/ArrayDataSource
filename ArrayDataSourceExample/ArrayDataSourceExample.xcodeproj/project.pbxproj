@@ -21,8 +21,8 @@
 		D9CEC9311800CA1000510512 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CEC9131800CA1000510512 /* UIKit.framework */; };
 		D9CEC9391800CA1000510512 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9CEC9371800CA1000510512 /* InfoPlist.strings */; };
 		D9CEC9481800CAFB00510512 /* ROArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CEC9461800CAFB00510512 /* ROArrayDataSource.m */; };
-		D9CEC94A1800CB4100510512 /* ROArrayDataSourceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CEC9471800CAFB00510512 /* ROArrayDataSourceTests.m */; };
 		D9CEC94E1800DEBB00510512 /* ExampleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CEC94D1800DEBB00510512 /* ExampleCell.m */; };
+		D9CEC95118012DEF00510512 /* ROArrayDataSourceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CEC95018012DEF00510512 /* ROArrayDataSourceTests.m */; };
 		EE21EFDE7062499987B95FCE /* libPods-ArrayDataSourceExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B32EE746214D2DAF5704DC /* libPods-ArrayDataSourceExampleTests.a */; };
 /* End PBXBuildFile section */
 
@@ -59,9 +59,9 @@
 		D9CEC9381800CA1000510512 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D9CEC9451800CAFB00510512 /* ROArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROArrayDataSource.h; sourceTree = "<group>"; };
 		D9CEC9461800CAFB00510512 /* ROArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROArrayDataSource.m; sourceTree = "<group>"; };
-		D9CEC9471800CAFB00510512 /* ROArrayDataSourceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ROArrayDataSourceTests.m; path = ../../ROArrayDataSource/ROArrayDataSourceTests.m; sourceTree = "<group>"; };
 		D9CEC94C1800DEBB00510512 /* ExampleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleCell.h; sourceTree = "<group>"; };
 		D9CEC94D1800DEBB00510512 /* ExampleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleCell.m; sourceTree = "<group>"; };
+		D9CEC95018012DEF00510512 /* ROArrayDataSourceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROArrayDataSourceTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +150,7 @@
 		D9CEC9341800CA1000510512 /* ArrayDataSourceExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				D9CEC9471800CAFB00510512 /* ROArrayDataSourceTests.m */,
+				D9CEC95018012DEF00510512 /* ROArrayDataSourceTests.m */,
 				D9CEC9351800CA1000510512 /* Supporting Files */,
 			);
 			path = ArrayDataSourceExampleTests;
@@ -337,7 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9CEC94A1800CB4100510512 /* ROArrayDataSourceTests.m in Sources */,
+				D9CEC95118012DEF00510512 /* ROArrayDataSourceTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
