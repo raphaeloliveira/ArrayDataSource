@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Schibsted. All rights reserved.
 //
 
-@import Foundation;
+#include <Foundation/Foundation.h>
 
 typedef void (^ConfigureCellBlock)(id cell, id object);
 

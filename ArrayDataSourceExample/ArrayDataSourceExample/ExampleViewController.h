@@ -10,7 +10,7 @@
 
 @class ROArrayDataSource;
 
-@import UIKit;
+#include <UIKit/UIKit.h>
 
 @interface ExampleViewController : UIViewController
 

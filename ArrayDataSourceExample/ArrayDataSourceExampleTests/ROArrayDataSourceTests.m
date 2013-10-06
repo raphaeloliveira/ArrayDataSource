@@ -13,7 +13,7 @@
 #import "OCHamcrest.h"
 #import "OCMockito.h"
 
-@import XCTest;
+#include <XCTest/XCTest.h>
 
 @interface ROArrayDataSourceTests : XCTestCase
 {

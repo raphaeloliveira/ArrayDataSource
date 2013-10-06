@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Raphael. All rights reserved.
 //
 
-@import UIKit;
+#include <UIKit/UIKit.h>
 
 @interface ExampleCell : UITableViewCell
 
