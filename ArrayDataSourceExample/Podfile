@@ -1,0 +1,7 @@
+platform :ios, '7.0'
+
+target:ArrayDataSourceExampleTests do
+    pod 'OCHamcrest', '~> 3.0.0'
+    pod 'OCMockito', '~> 1.0.0'
+end
+
