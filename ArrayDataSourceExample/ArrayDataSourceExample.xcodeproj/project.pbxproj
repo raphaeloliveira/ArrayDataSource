@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C0495B31CABAAB00019A833 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C0495B21CABAAB00019A833 /* Launch Screen.storyboard */; };
 		D9CEC9101800CA1000510512 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CEC90F1800CA1000510512 /* Foundation.framework */; };
 		D9CEC9121800CA1000510512 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CEC9111800CA1000510512 /* CoreGraphics.framework */; };
 		D9CEC9141800CA1000510512 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CEC9131800CA1000510512 /* UIKit.framework */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C0495B21CABAAB00019A833 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		33DAF9A0A6AE4C3983C0EB4F /* Pods-ArrayDataSourceExampleTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArrayDataSourceExampleTests.xcconfig"; path = "Pods/Pods-ArrayDataSourceExampleTests.xcconfig"; sourceTree = "<group>"; };
 		84B32EE746214D2DAF5704DC /* libPods-ArrayDataSourceExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArrayDataSourceExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9CEC90C1800CA1000510512 /* ArrayDataSourceExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArrayDataSourceExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +130,7 @@
 				D9CEC91E1800CA1000510512 /* AppDelegate.h */,
 				D9CEC91F1800CA1000510512 /* AppDelegate.m */,
 				D9CEC9211800CA1000510512 /* Main.storyboard */,
+				2C0495B21CABAAB00019A833 /* Launch Screen.storyboard */,
 				D9CEC94B1800DD4700510512 /* UIViewControllers */,
 				D9CEC94F1800DECE00510512 /* UIViews */,
 				D9CEC9271800CA1000510512 /* Images.xcassets */,
@@ -273,6 +276,7 @@
 			files = (
 				D9CEC9281800CA1000510512 /* Images.xcassets in Resources */,
 				D9CEC91A1800CA1000510512 /* InfoPlist.strings in Resources */,
+				2C0495B31CABAAB00019A833 /* Launch Screen.storyboard in Resources */,
 				D9CEC9231800CA1000510512 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
